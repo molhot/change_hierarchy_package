@@ -26,13 +26,6 @@ jobs:
       contents: write
     env:
       packagePath: .
-
-    needs: config
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    env:
-      packagePath: Packages/${{ vars.PACKAGE_NAME }}
     if: needs.config.outputs.config_package == 'true'
     steps:
 
