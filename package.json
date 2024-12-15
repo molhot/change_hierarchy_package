@@ -1,0 +1,14 @@
+{
+    "name" : "com.github.molhot.renamehierarchy",
+    "displayName" : "rename hierarchy",
+    "version" : "1.0.0",
+    "author": {
+      "name": "molhot",
+      "email": "sakata19991214@gmail.com"
+    },
+    "unity" : "2019.4",
+    "description" : "Tools for easier rename object",
+    "vpmDependencies" : {
+      "com.vrchat.avatars" : ">=3.1.0"
+    }
+  }
